@@ -215,10 +215,11 @@ body {
     margin-bottom: 4rem;
 
 }
-
+/*  *
 .container {
     padding: 90px;
 }
+/*  */
 
 .sub {
     text-align: center;
@@ -653,8 +654,13 @@ button:hover {
     background-image: linear-gradient(to bottom, #97c9e8, #3498db);
     text-decoration: none;
 }
+@media screen and (max-width:800px) {
+    .container{
+        padding: 10px;
+    }
 
-
+    
+}
 
 
 
